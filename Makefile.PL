@@ -5,6 +5,7 @@ WriteMakefile
           'NAME' => 'Test::Structure',
           'VERSION_FROM' => 'lib/Test/Structure.pm',
           'PREREQ_PM' => {
+                           'PPI' => 0,
                            'Test::More' => 0
                          },
           'INSTALLDIRS' => 'site',
